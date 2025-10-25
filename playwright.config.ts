@@ -2,7 +2,7 @@ import { defineConfig, devices } from '@playwright/test';
 import {envConfig} from 'C:/Users/DELL/OneDrive/Desktop/Playwright_test/env.config.ts';
 
 const ENV =process.env.ENV || 'stage';
-const URL =process.env.SITE || 'fb';
+const URL =process.env.SITE || 'rahulshetty';
 let url =envConfig[ENV][URL]
 if(!url){
 
