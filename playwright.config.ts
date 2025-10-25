@@ -1,5 +1,5 @@
 import { defineConfig, devices } from '@playwright/test';
-import {envConfig} from 'C:/Users/DELL/OneDrive/Desktop/playwright_test/env.config.ts';
+import { envConfig } from './env.config';
 
 const ENV =process.env.ENV || 'stage';
 const URL =process.env.SITE || 'rahulshetty';
