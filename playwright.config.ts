@@ -4,11 +4,9 @@ import { envConfig } from './env.config';
 const ENV =process.env.ENV || 'stage';
 const URL =process.env.SITE || 'rahulshetty';
 let url =envConfig[ENV][URL]
+console.log(url);
 if(!url){
-
-
   console.log('no url in  the ENV');
-
 }
 else
 {
