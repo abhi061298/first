@@ -10,8 +10,11 @@ on:
 
 jobs:
   test:
+    
     timeout-minutes: 60
     runs-on: ubuntu-latest
+    env:
+  token: ${{ secrets.TOKEN }}
     strategy:
        matrix:
         browser: [chromium]
