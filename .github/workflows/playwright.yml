@@ -6,7 +6,7 @@ on:
   pull_request:
     branches: [ main, master ]
   schedule:
-    - cron: '*/2 * * * *'  # runs every 5 mins
+    - cron: '0 9 * * *'  # runs every 9 A
 
 jobs:
   test:
